@@ -1,0 +1,16 @@
+{
+  "name": "node-file-creator-cli",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create": "./index.js"
+  },
+  "keywords": ["cli","node","file-create","folder-create"],
+  "author": "Tuncvrjs",
+  "license": "MIT",
+  "homepage": "https://github.com/Tuncvrjs/node-file-creator-cli"
+}
