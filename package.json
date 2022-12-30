@@ -1,16 +1,29 @@
 {
   "name": "node-file-creator-cli",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create": "./index.js"
+    "create": "./index.js",
+    "readf": "./read.js"
   },
-  "keywords": ["cli","node","file-create","folder-create"],
+  "keywords": [
+    "cli",
+    "node",
+    "file-create",
+    "folder-create",
+    "rickoll",
+    "feedback"
+  ],
   "author": "Tuncvrjs",
   "license": "MIT",
-  "homepage": "https://github.com/Tuncvrjs/node-file-creator-cli"
+  "homepage": "https://github.com/Tuncvrjs/node-file-creator-cli",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "open": "^8.4.0",
+    "tuncvr-db": "^3.4.7"
+  }
 }
